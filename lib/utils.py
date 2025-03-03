@@ -6,14 +6,9 @@ import time
 import h5py
 import warnings
 
-def test_reload2():
-    print(30)
-
-def test_reload():
-    print(11)
-
 # Set the default print options for NumPy arrays to use scientific notation
 np.set_printoptions(formatter={'float': '{:0.2e}'.format})
+
 
 def generate_topography(phi, choice='Uniform', height=5e3, half_width=30):
     """
